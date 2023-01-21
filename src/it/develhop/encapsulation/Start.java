@@ -29,7 +29,7 @@ public class Start {
         person.setAge(scanner.nextInt());
         scanner.close();
 
-        System.out.println(String.format("Person name: %s \nSurname: %s \nHeight: %.2f \nAge: %d",
+        System.out.println(String.format("Name: %s \nSurname: %s \nHeight: %.2f \nAge: %d",
                 person.getName(), person.getSurname(),person.getHeight(),person.getAge()));
     }
 }
